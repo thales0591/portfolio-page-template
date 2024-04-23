@@ -35,15 +35,32 @@ a::before {
     margin-right: 10px;
     
 }
-
-
-#button {
+.botaoContatos {
     display: inline-block;
     background-color: #A7071B;
     box-shadow: 5px 5px 0 black;
     padding: 18px 20px;
     margin-right: 0;
 }
+.botaoDownload {
+    display: inline-block;
+    background-color: #A7071B;
+    box-shadow: 5px 5px 0 black;
+    padding: 18px 20px;
+    margin-right: 0;
+}
+
 #button:hover {
     background-color: #830716;
+}
+.backgImage{
+    position: relative;
+    overflow-x: hidden;
+    
+}
+.overlay {
+    position: absolute;
+    left: 91px;
+    top: 240px;
+    
 }
