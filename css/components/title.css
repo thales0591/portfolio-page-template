@@ -1,16 +1,8 @@
 h1 {
-    margin: 0;
-    display: flex;
     font-size: 40px;
-    background-color: #3A4042;
-    width: 627px;
-    height: 184px;
     font-weight: 400;
     font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
     color: #A7071B;
     text-shadow: 4px 4px 0px #000;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    box-shadow: 10px 10px 0 black;
+    
 }
