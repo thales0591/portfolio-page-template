@@ -8,10 +8,16 @@
     display: flex;
 }
 .tec-skill .icon {
+    box-sizing: border-box;
     margin-right: 25px;
+    width: 90px;
 }
 .tec-skill .right{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.tec-skill .skillName{
+    margin-bottom: 10px;
 }
