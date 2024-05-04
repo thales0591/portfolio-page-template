@@ -4,9 +4,8 @@
     font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
     color: #A7071B;
     text-shadow: 4px 4px 0px #000;
-    padding-bottom: 10px;
 }
-.main-title.-second {
+.main-title.-second, .main-title.-third {
     color: #FFF;
     text-shadow: none;
     text-align: center;

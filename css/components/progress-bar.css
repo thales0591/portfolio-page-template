@@ -11,9 +11,7 @@ progress {
     width: 320px;
 }
 
-.progress-bar::-webkit-progress-value,
-.progress-bar::-webkit-progress-bar {
-    width: 70%;
+.progress-bar::-webkit-progress-value {
     background-color: #A7071B;
 }
 .progress-bar::-moz-progress-bar{

@@ -1,0 +1,13 @@
+.main-figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 280px;
+    background-color: #7C5E99;
+    box-shadow: 10px 10px #FFF;
+}
+
+.main-figure.-second {
+    background-color: #4C5B84;
+}
