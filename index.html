@@ -10,7 +10,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Press+Start+2P&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/components/body.css">
     <link rel="stylesheet" href="css/components/main-banner.css">
     <link rel="stylesheet" href="css/components/main-title.css">
     <link rel="stylesheet" href="css/components/main-subtitle.css">
@@ -24,6 +23,13 @@
     <link rel="stylesheet" href="css/components/skill-wrapper.css">
     <link rel="stylesheet" href="css/components/project-wrapper.css">
     <link rel="stylesheet" href="css/components/main-figure.css">
+    <link rel="stylesheet" href="css/components/main-description.css">
+    <link rel="stylesheet" href="css/components/carrossel.css">
+    <link rel="stylesheet" href="css/components/arrow-button.css">
+    <link rel="stylesheet" href="css/components/node-card.css">
+    <link rel="stylesheet" href="css/components/main-carousel.css">
+    <link rel="stylesheet" href="css/components/main-footer.css">
+    
 </head>
 
 <body class="body">
@@ -33,11 +39,11 @@
         <img id="myicon" src="assets/img/my-icon-figma.png" alt="my-icon-60x60">
 
         <nav>
-            <a class="main-action" href="" lang="en">Skills</a>
-            <a class="main-action" href="">Projetos</a>
-            <a class="main-action" href="">Sobre</a>
-            <a class="main-action" href="">Contatos</a>
-            <a class="main-button" href="" lang="en">Download CV</a>
+            <a class="main-action" href="#" lang="en">Skills</a>
+            <a class="main-action" href="#">Projetos</a>
+            <a class="main-action" href="#">Sobre</a>
+            <a class="main-action" href="#">Contatos</a>
+            <a class="main-button" href="#" lang="en">Download CV</a>
         </nav>
 
     </header>
@@ -55,8 +61,8 @@
 
             <div class="navigation">
 
-                <a class="main-button" href="" lang="en">Download CV</a>
-                <a class="main-button" href="" >Contatos</a>
+                <a class="main-button" href="#" lang="en">Download CV</a>
+                <a class="main-button" href="#" >Contatos</a>
 
             </div>
 
@@ -118,21 +124,108 @@
         
         <div class="project-wrapper">
             <figure class="main-figure">
-                <a href="">
+                <a href="#">
                     <img class="logo" src="assets/projects-imgs/logo-firedlabs.png" alt="firedlabs icon">
                 </a>
             </figure>
             <figure class="main-figure -second">
-                <a href="">
+                <a href="#">
                     <img class="logo" src="assets/projects-imgs/logo-collabcode.png" alt="collabcode icon">
                 </a>
             </figure>
             <figure class="main-figure -third">
-                <a href="">
+                <a href="#">
                     <img class="logo" src="assets/projects-imgs/portfolio.png" alt="marco bruno icon">
                 </a>
             </figure>
         </div>
     </section>
+
+    <section class="main-section -third">
+
+        <h2 class="main-title -second">Sobre</h2>
+
+        
+
+        
+        
+        
+
+        <section class="main-carousel">
+
+            <button class="arrow-button -left"><span class="content">Voltar</span></button>
+
+            <div class="items">
+                <div class="elements">
+                    <figure class="node-card">
+                        <figcaption class="title">2012</figcaption>
+                        <div class="logo">
+                            <img src="assets/carrossel-imgs/logo-locaweb.png" alt="Logo da Locaweb" >
+                        </div>
+                    </figure>
+
+                    <figure class="node-card -clean">
+                        <figcaption class="title">2014</figcaption>
+                        <div class="logo">
+                            <img src="assets/carrossel-imgs/logo-caelum.png" alt="Logo da Locaweb" >
+                        </div>
+                    </figure>
+
+                    <figure class="node-card -first">
+                        <figcaption class="title">2016</figcaption>
+                        <div class="logo">
+                            <img src="assets/carrossel-imgs/logo-getninjas.png" alt="Logo da Locaweb" >
+                        </div>
+                    </figure>
+
+                    <figure class="node-card -clean">
+                        <figcaption class="title">2017</figcaption>
+                        <div class="logo">
+                            <img src="assets/carrossel-imgs/logo-caelum.png" alt="Logo da Locaweb" >
+                        </div>
+                    </figure>
+
+                    <figure class="node-card">
+                        <figcaption class="title">2018</figcaption>
+                        <div class="logo">
+                            <img src="assets/carrossel-imgs/logo-impulso.png" alt="Logo da Locaweb" >
+                        </div>
+                    </figure>
+
+                    <figure class="node-card -first">
+                        <figcaption class="title">2019</figcaption>
+                        <div class="logo">
+                            <img src="assets/carrossel-imgs/logo-collabcode (1).png" alt="Logo da Locaweb" >
+                        </div>
+                    </figure>
+                </div>
+            </div>
+
+            <button class="arrow-button -right"><span class="content">Avançar</span></button>
+
+        </section>
+        
+
+        
+        <p class="main-description">Thales é estudante de programação, tem 18 anos e programa com foco em full stack. Gosta de resolver problemas, atualmente trabalha com atendimento ao cliente e, quando não está fazendo algum treino ou esporte, gosta de ver filmes em inglês, o qual tem um bom domínio e consegue se comunicar de forma transparente.</p>
+
+        
+    </section>
+    <script src="js/components/main-carousel.js">  </script>
+
+    <footer class="main-footer">
+        <a href="#">
+            <img src="assets/icons/icon-twitter.png" alt="logo do Twitter em pixel art">
+        </a>
+
+        <a href="https://www.instagram.com/thtorres09/" target="_blank">
+            <img src="assets/icons/insta-icon.png" alt="Logo do Instagram em pixel art">
+        </a>
+
+        <a href="discord.com/users/406208663037149190" target="_blank">
+            <img src="assets/icons/icon-discord.png" alt="Logo do Discord em pixel art">
+        </a>
+
+    </footer>
 </body>
 </html>
