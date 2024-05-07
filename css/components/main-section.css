@@ -10,7 +10,12 @@
 .main-section.-second {
     background-color: #000;
     border-bottom: 10px solid #4C5B84;
-
 }
+.main-section.-third {
+    background-color: #4C5B84;
+    border-bottom: 10px solid #000;
+    padding-bottom: 50px;
+}
+
 
 
