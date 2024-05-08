@@ -29,6 +29,9 @@
     <link rel="stylesheet" href="css/components/node-card.css">
     <link rel="stylesheet" href="css/components/main-carousel.css">
     <link rel="stylesheet" href="css/components/main-footer.css">
+    <link rel="stylesheet" href="css/components/main-form.css">
+    <link rel="stylesheet" href="css/components/main-label.css">
+    <link rel="stylesheet" href="css/components/main-input.css">
     
 </head>
 
@@ -124,32 +127,18 @@
         
         <div class="project-wrapper">
             <figure class="main-figure">
-                <a href="#">
-                    <img class="logo" src="assets/projects-imgs/logo-firedlabs.png" alt="firedlabs icon">
+                <a href="https://github.com/thales0591" target="_blank">
+                    <img class="logo" src="assets/projects-imgs/githubicon-250x250.png" alt="firedlabs icon">
                 </a>
             </figure>
-            <figure class="main-figure -second">
-                <a href="#">
-                    <img class="logo" src="assets/projects-imgs/logo-collabcode.png" alt="collabcode icon">
-                </a>
-            </figure>
-            <figure class="main-figure -third">
-                <a href="#">
-                    <img class="logo" src="assets/projects-imgs/portfolio.png" alt="marco bruno icon">
-                </a>
-            </figure>
+            
+            
         </div>
     </section>
 
     <section class="main-section -third">
 
         <h2 class="main-title -second">Sobre</h2>
-
-        
-
-        
-        
-        
 
         <section class="main-carousel">
 
@@ -160,42 +149,42 @@
                     <figure class="node-card">
                         <figcaption class="title">2012</figcaption>
                         <div class="logo">
-                            <img src="assets/carrossel-imgs/logo-locaweb.png" alt="Logo da Locaweb" >
+                            <img src="assets/carousel-imgs/logo-locaweb.png" alt="Logo da Locaweb" >
                         </div>
                     </figure>
 
                     <figure class="node-card -clean">
                         <figcaption class="title">2014</figcaption>
                         <div class="logo">
-                            <img src="assets/carrossel-imgs/logo-caelum.png" alt="Logo da Locaweb" >
+                            <img src="assets/carousel-imgs/logo-caelum.png" alt="Logo da Locaweb" >
                         </div>
                     </figure>
 
                     <figure class="node-card -first">
                         <figcaption class="title">2016</figcaption>
                         <div class="logo">
-                            <img src="assets/carrossel-imgs/logo-getninjas.png" alt="Logo da Locaweb" >
+                            <img src="assets/carousel-imgs/logo-getninjas.png" alt="Logo da Locaweb" >
                         </div>
                     </figure>
 
                     <figure class="node-card -clean">
                         <figcaption class="title">2017</figcaption>
                         <div class="logo">
-                            <img src="assets/carrossel-imgs/logo-caelum.png" alt="Logo da Locaweb" >
+                            <img src="assets/carousel-imgs/logo-caelum.png" alt="Logo da Locaweb" >
                         </div>
                     </figure>
 
                     <figure class="node-card">
                         <figcaption class="title">2018</figcaption>
                         <div class="logo">
-                            <img src="assets/carrossel-imgs/logo-impulso.png" alt="Logo da Locaweb" >
+                            <img src="assets/carousel-imgs/logo-impulso.png" alt="Logo da Locaweb" >
                         </div>
                     </figure>
 
                     <figure class="node-card -first">
                         <figcaption class="title">2019</figcaption>
                         <div class="logo">
-                            <img src="assets/carrossel-imgs/logo-collabcode (1).png" alt="Logo da Locaweb" >
+                            <img src="assets/carousel-imgs/logo-collabcode (1).png" alt="Logo da Locaweb" >
                         </div>
                     </figure>
                 </div>
@@ -211,7 +200,32 @@
 
         
     </section>
-    <script src="js/components/main-carousel.js">  </script>
+
+
+        
+
+    <form method="get" class="main-form">
+        
+        <div>
+            <label class="main-label" for="name">Nome: </label>
+            <input class="main-input" type="text" id="name" required />
+        </div>
+
+        <div>
+            <label class="main-label" for="email">Email: </label>
+            <input class="main-input" type="email" id="email" required />
+        </div>
+
+        <div>
+            <label class="main-label" for="message">Mensagem: </label>
+            <textarea class="main-input -textarea" id="message" required></textarea>
+        </div>
+
+        <div>
+            <input type="submit" value="Enviar" />
+        </div>
+    </form>
+
 
     <footer class="main-footer">
         <a href="#">
@@ -227,5 +241,7 @@
         </a>
 
     </footer>
+
+    <script src="js/components/main-carousel.js">  </script>
 </body>
 </html>
