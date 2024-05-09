@@ -9,5 +9,8 @@
 }
 
 .main-figure.-second {
-    background-color: #4C5B84;
+    cursor: pointer;
+    background-color: #3A4042;
+    box-shadow: none;
+    box-shadow: 10px 10px black;
 }
