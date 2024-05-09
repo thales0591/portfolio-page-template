@@ -16,5 +16,12 @@ a.main-button:before {
     display: none;
 }
 .main-button.-submit {
+    font-size: 30px;
+    font-weight: 300;
+    cursor: pointer;
     width: 100%;
+    border: none;
+}
+.main-button.-submit:hover {
+    transform: scale(1.02);
 }
