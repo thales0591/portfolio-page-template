@@ -1,0 +1,8 @@
+.main-form {
+    background-color: #3A4042;
+    border-bottom: none;
+    padding: 50px 40px;
+}
+.main-form .main-input {
+    margin-bottom: 20px;
+}
